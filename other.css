@@ -1,0 +1,224 @@
+
+#logo-below {
+    margin: 2%;
+}
+.sidebar-title {
+    color: rgb(128, 128, 128);
+    font-size: 0.8em;
+}
+.detail-sidebar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.detail-sidebar label {
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+form {
+    margin-left: 1.5%;
+    padding: 6%;
+}
+.car-select {
+    display: flex;
+    justify-content: space-between;
+}
+.page-display {
+    display: flex;
+    justify-content: space-between;
+}
+.detail-sec {
+    width: 75%;
+    padding: 1%;
+}
+.sidebar-sec {
+    width: 25%;
+}
+
+ /* ..................SHowcase ...................*/
+
+.disp-car {
+    width: 50%;
+}
+ .car-display {
+    background: rgba(53, 99, 233, 1);
+    padding: 1%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-image: url('image/Ellipse\ 42.png');
+    margin: 1%;
+
+  
+  }
+
+  .car-desc {
+    background: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-image: url('image/Ellipse\ 42.png');
+    margin: 1%;
+  
+  }
+  .car-txt{
+    font-size: 1.7em;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .car-display p{
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .inside-car {
+    display: flex;
+    justify-content: space-between;
+  }
+  .desc-element {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+  }
+  .showcase-header {
+    display: flex;
+    justify-content: space-between;  
+  }
+  .showcase-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 25px;
+    width: 50%;
+    /* height: 388px; */
+    margin: 1%;
+  
+  }
+  .review-btn {
+    background: rgba(53, 99, 233, 1);
+    padding-left: 14px;
+    padding-right: 14px;
+    align-items: center;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  .sub-rev {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .rev-desc {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profil-review {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+  }
+  .desc-prof {
+    margin-left: 10%;
+  }
+  .show-all {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .show-all select {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    align-items: center;
+    border: none;
+    background: none;
+    color: rgba(144, 163, 191, 1);
+    padding-right: 18px;
+    font-size: 1.7em;
+  }
+  .testimo-sec {
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1%;
+  }
+  .showcase-all {
+    width: 75%;
+    padding: 1%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px ) {
+    #logo-mobile {
+        display: none;
+    }
+    .sidebar-sec {
+        display: none;
+    }
+    .page-display {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .car-select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .detail-sec {
+        width: 100%;
+        padding: 6%;
+        align-items: center ;
+    }
+    .disp-car {
+        width: 100%;
+    }
+    .showcase-section  {
+        width: 90%;
+      }
+    .detail {
+        width: 100%;
+        padding: 6%;
+        align-items: center ;
+    }  
+
+
+}
+   
+
+
+
+@media (min-width: 721px ) {
+    #menu {
+        display: none;
+    }
+    #logo-below {
+        display: none;
+    }
+    
+}

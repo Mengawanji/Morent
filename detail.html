@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="other.css">
+    <title>Detail Car</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img  id="menu"  src="image/menu.png" alt="">
+            <div class="logo">
+                <img  id="logo-mobile"  src="image/Logo.png" alt="">
+                <div class="search-wrapper">
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder="Search something here" />
+                    <img src="image/filter.png" alt="">
+                </div>
+            </div>
+            <div class="nav-reactions">
+                <div class="nav-icons">
+                    <img src="image/Like.png" alt="">
+                    <img src="image/Notification.png" alt="">
+                    <img src="image/Settings.png" alt="">
+                </div>
+                <nav class="profil">
+                    <img src="image/Profil.png" alt="">
+                </nav>
+            </div>   
+        </nav>
+        <img  id="logo-below"  src="image/Logo.png" alt="">
+        <div class="search-mobile">
+            <i class="fa fa-search search-icon"></i>
+            <input type="text" placeholder="Search something here" />
+            <img src="image/filter.png" alt="">
+        </div> 
+    </header>
+    <div class="page-display">
+        <div class="sidebar-sec">
+            <div class="detail-sidebar">
+                <form action="/action_page.php">
+                    <p class="sidebar-title">TYPE</p><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Sport <span>(10)</span> </label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> SUV <span>(12)</span></label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> MPV <span>(16)</span></label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Sedan <span>(20)</span></label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> Coup <span>(14)</span></label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Hatchback <span>(14)</span></label><br><br>
+                </form>
+                <form action="/action_page.php">
+                    <p class="sidebar-title">CAPACITY</p><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> 2 Person <span>(10)</span></label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> 4 Person <span>(14)</span></label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> 6 Person <span>(12)</span></label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> 8 Person <span>(16)</span></label><br>
+                </form>
+                <form action="/action_page.php">
+                    <p class="sidebar-title">PRICE</p><br>                                                                                                  
+                    <progress id="file" value="80" max="100"> 80% </progress>
+                    <p>Max. $100.00</p>
+                </form>
+            </div>
+        </div> 
+        <div class="detail-sec">
+            <div class="destination">
+                <div class="pic-up">
+                    <img src="image/Pick - Up.png" alt="">
+                    <div class="add-sec">
+                        <div class="address">
+                            <h4>Locations</h4>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>
+                        <div class="address">
+                            <h4>Date</h4>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>  
+                        <div class="address">
+                                <h4>Time</h4>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>  
+                    </div>  
+                </div>
+                <button class="des-btn"> ↑↓ </button>
+                <div class="pic-up">
+                    <img src="image/Drop - Off.png" alt="">
+                    <div class="add-sec">
+                        <div class="address">
+                            <div>
+                                <h4>Locations</h4>
+                            </div>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>
+                        <div class="address">
+                            <h4>Date</h4>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>  
+                        <div class="address">
+                            <h4>Time</h4>
+                            <label>
+                                <select><option value="city">Select your city </option></select>
+                            </label>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+            <div class="car-select">
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>Koenigsegg</h3>
+                            <span><p>Sport</p></span>
+                        </div>
+                        <i class="fa fa-heart" aria-hidden="true" style="color: rgb(255, 0, 0);"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/koenigsegg.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/90L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/2People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$99.00/ <span>day</span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>NissanGT-R</h3>
+                            <span><p>Sport</p></span>
+                        </div>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/Nissan.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/80L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/2People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$99.00/ <span>day <s>$100.00</s></span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>Rolls-Royse</h3>
+                            <span><p>Sedan</p></span>
+                        </div>
+                        <i class="fa fa-heart" aria-hidden="true" style="color: rgb(255, 0, 0);"></i>
+                    </div>
+                    <div class="car-img">
+                        <img src="image/cars/Rolls-Roys.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/70L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/4People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$96.00/ <span>day</span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-select">
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>AllNewRush</h3>
+                            <span><p>SUV</p></span>
+                        </div>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/AllNewRush.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/70L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/6People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$72.00/ <span>day <s>$80.00</s></span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>CR-V</h3>
+                            <span><p>SUV</p></span>
+                        </div>
+                        <i class="fa fa-heart" aria-hidden="true" style="color: rgb(255, 0, 0);"></i>
+                    </div>
+                    <div class="car-img">
+                        <img src="image/cars/CR-V.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/80L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/6People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$80.00/ <span>day</span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>AllNerTerios</h3>
+                            <span><p>SUV</p></span>
+                        </div>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/NissanGT.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/90L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/2People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$74.00/ <span>day <s>$100.00</s></span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-select">
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>MGZX Exclusice</h3>
+                            <span><p>Hatchback</p></span>
+                        </div>
+                        <i class="fa fa-heart" aria-hidden="true" style="color: rgb(255, 0, 0);"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/MGZX Exclusice.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/70L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/4People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$76.00/ <span>day <s>$80.00</s></span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>NewMGZS</h3>
+                            <span><p>SUV</p></span>
+                        </div>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="car-img">
+                        <img src="image/cars/NewMGZS.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/80L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/6People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$80.00/ <span>day</span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+                <div class="cars-card">
+                    <div class="car-header">
+                        <div>
+                            <h3>MGZX Excite</h3>
+                            <span><p>Hatchback</p></span>
+                        </div>
+                        <i class="fa fa-heart" aria-hidden="true" style="color: rgb(255, 0, 0);"></i>
+                    </div>
+                    <div class="car-img">
+                        <img src="image/cars/MGZX Exclusice.png" alt=""> 
+                    </div>
+                    <div class="car-prop">
+                        <img src="image/car-prop/70L.png" alt="">
+                        <img src="image/car-prop/manual.png" alt="">
+                        <img src="image/car-prop/4People.png" alt="">
+                    </div>
+                    <div class="car-price">
+                        <h3>$74.00/ <span>day</span></h3>
+                        <button class="SK-btn"> Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="more-cars">
+                <button class="SK-btn"> Show more cars</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer class="footer-sec ">
+            <div class="footer-logo">
+                <img src="image/Logo.png" alt="">
+                <p>Our vision is to provide convenience and help increase  your sales business.</p>
+            </div>
+            <div class="mobile-foot">
+                <div class="footer-elements">
+                    <h3>About</h3>
+                    <ul>
+                        <li>How It Works</li>
+                        <li>Featured</li>
+                        <li>Partnership</li>
+                        <li>Business Relation</li>
+                    </ul>
+                </div>
+                <div class="footer-elements">
+                    <h3>Community</h3>
+                    <ul>
+                        <li>Events</li>
+                        <li>Blog</li>
+                        <li>Podcast</li>
+                        <li>Invite a friend</li>
+                    </ul>
+                </div>
+            </div>    
+            <div class="footer-elements">
+                <h3>Discord</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </footer>
+        <div class="footer-disclaimer">
+            <div>
+                <p>©2022 MORENT. All rights reserved</p>
+            </div>
+            <div class="priv">
+                <div>
+                    <P>Privacy & Policy</p>
+                </div>
+                <div>
+                    <p>Terms & Condition</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+
+
+</html>
