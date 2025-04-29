@@ -8,7 +8,7 @@
 /* -------------------nav-bar--------------- */
 
 body {
-  background: rgb(250, 248, 248);
+  background:  rgba(246, 247, 249, 1);
 }
 
 header {
@@ -105,6 +105,11 @@ header {
   transform: translateY(30%);
   margin-left: 4%;
 }
+
+::placeholder{
+  color: rgba(144, 163, 191, 1)
+}
+
 
 /* ---------------------display-section-------------- */
 
